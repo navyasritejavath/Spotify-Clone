@@ -95,3 +95,6 @@ There are several improvements that can be added:
 This project was a valuable learning experience. It helped in understanding how interactive web applications work and how different parts of a frontend project connect with each other. It also improved confidence in using JavaScript to build functional applications.
 
 There is still a lot of scope for improvement, and this project can be extended further with more features and better design.
+<img width="400" height="401" alt="Image" src="https://github.com/user-attachments/assets/17ebaa20-e27c-446a-a9c3-93d91d9fe80b" />
+
+<img width="480" height="120" alt="Image" src="https://github.com/user-attachments/assets/9b14f9c0-360a-452e-8d3e-0b518b3453e8" />
