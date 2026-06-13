@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <ul>
+        <li class="brand">
+            <img src="logo.png" alt="Spotify Logo"> Spotify
+        </li>
+        <li>Home</li>
+        <li>About</li>
+    </ul>
+</nav>
+
+<!-- MAIN CONTAINER -->
+<div class="container">
+
+    <!-- SONG LIST -->
+    <div class="songList">
+        <h1>Best Music</h1>
+
+        <div class="songItemContainer">
+
+            <div class="songItem">
+                <img src="music/cover1.png" alt="cover">
+                <span class="songName">Piano Music</span>
+                <span class="timestamp">
+                    2:34 
+                    <i id="0" class="fa-solid fa-circle-play songItemPlay"></i>
+                </span>
+            </div>
+
+            <div class="songItem">
+                <img src="music/cover2.png" alt="cover">
+                <!-- FIXED CLASS -->
+                <span class="songName">Vintage Music</span>
+                <span class="timestamp">
+                    0:25 
+                    <i id="1" class="fa-solid fa-circle-play songItemPlay"></i>
+                </span>
+            </div>
+
+            <div class="songItem">
+                <img src="music/cover3.png" alt="cover">
+                <span class="songName">Memphis Synthwave Music</span>
+                <span class="timestamp">
+                    2:18 
+                    <i id="2" class="fa-solid fa-circle-play songItemPlay"></i>
+                </span>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<!-- PLAYER -->
+<div class="bottom">
+    <input type="range" id="myProgressBar" min="0" max="100" value="0">
+
+    <div class="icons">
+        <i class="fa-solid fa-backward" id="previous"></i>
+        <i class="fa-solid fa-circle-play" id="masterPlay"></i>
+        <i class="fa-solid fa-forward" id="next"></i>
+    </div>
+
+    <div class="songInfo">
+        <img src="playing.gif" width="40" id="gif">
+        <span id="masterSongName">Piano Music</span>
+    </div>
+</div>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
